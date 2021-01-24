@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 import time
 
-driver = webdriver.Chrome(r'H:\Users\morel\Desktop\chromedriver.exe')
+driver = webdriver.Chrome(r'/chromedriver.exe')
 driver.get('https://web.whatsapp.com/')
 
 name = 'Poliumvirato Poli'
